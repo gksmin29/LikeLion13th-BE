@@ -51,7 +51,7 @@ spring:
         registration:
           kakao:
             authorization-grant-type: authorization_code
-            client-id: ${KAKAO_CILENT_ID}
+            client-id: ${KAKAO_CLIENT_ID}
             redirect-uri: "http://localhost:8080/callback/kakao"
             client-authentication-method: client_secret_post
             scope:
