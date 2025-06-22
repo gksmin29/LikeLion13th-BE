@@ -86,6 +86,4 @@ public class MemberController {
         memberCommandService.deleteMember(memberDeleteDTO);
         return CustomResponse.onSuccess("회원 탈퇴 성공");
     }
-
-
 }
