@@ -4,7 +4,7 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver # MySQL JDBC 드라이버 클래스 이름
-    url: database-2.c5uykkcsy3nq.ap-northeast-2.rds.amazonaws.com
+    url: jdbc:mysql://database-2.c5uykkcsy3nq.ap-northeast-2.rds.amazonaws.com:3306/han_rdb
     username: hanmin
     password: rPfksQkd2747!
 
