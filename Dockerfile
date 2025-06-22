@@ -8,4 +8,4 @@ ARG JAR_FILE=build/libs/*.jar
 COPY ${JAR_FILE} min.jar
 
 # 엔트리포인트 설정
-ENTRYPOINT ["java","-jar","/min.jar]
+ENTRYPOINT ["java","-jar","/min.jar"]
